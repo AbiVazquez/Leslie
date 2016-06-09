@@ -306,44 +306,6 @@
 		@include circulos;
 
 	}
-	#proyectos{
-		background-color: #AABFB9;
-		.bg-txt{
-			background-color: #AABFB9;
-			height: $img;
-		}
-		h2{
-			color: $colorw;
-			font-weight: 300;
-			font-size: 50px;
-			text-align: center;
-			margin-top: 30%;
-		}
-		h3{
-			color: $colorw;
-			font-weight: 400;
-			font-size: 40px;
-			text-align: center;
-		}
-		a{
-			position: absolute;
-			bottom: 10%;
-			left: 40%;
-			img{
-				width: 50%;
-			}
-		}
-		.mas{
-			position: absolute;
-			bottom: 10%;
-			left: 45%;
-			img{
-				width: 60%;
-			}
-		}
-
-		@include proyectos;
-	}
 	#contacto{
 		background-color: #329c98;
 		height: 375px;
@@ -354,20 +316,21 @@
 			text-align: center;
 			}
 		img{
-			width: 50%;
+			width: 40%;
 			margin-top: 10%;
 			margin-left: 30%;
 		}
 		.tel{
 			color: white;
-			font-size: 15px;
+			font-size: 12px;
 			font-weight: 600;
-			margin-right: 20px;
+			text-align: center;
 			border: 2px  dashed white;
 			margin-top: 7%;
 			padding: 5px;
 
 		}
+	}
 		.modal-content{
 			height: 200px;
 			padding: 3%;
@@ -388,7 +351,7 @@
 			.btn{
 				background-color: #048390;
 				color: white;
-				width: 120%;
+				
 				margin-top: 5%;
 				margin-left: 30%;
 				&:hover{
@@ -397,6 +360,5 @@
 				};
 			}
 		}
-}
 }
 
