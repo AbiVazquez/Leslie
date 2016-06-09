@@ -109,7 +109,7 @@
   #herramientas .ch-img-3 {
     background-image: url("../img/icon/sass1.png"); }
   #herramientas .ch-img-4 {
-    background-image: url("../img/icon/js4.png"); }
+    background-image: url("../img/icon/Js4.png"); }
   #herramientas .ch-img-5 {
     background-image: url("../img/icon/jq2.png"); }
   #herramientas .ch-info h3 {
@@ -335,7 +335,7 @@
     text-align: center; }
   #contacto img {
     width: 40%;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 30%; }
   #contacto .tel {
     color: white;
@@ -497,7 +497,7 @@
     #herramientas .ch-img-3 {
       background-image: url("../img/icon/sass1.png"); }
     #herramientas .ch-img-4 {
-      background-image: url("../img/icon/js4.png"); }
+      background-image: url("../img/icon/Js4.png"); }
     #herramientas .ch-img-5 {
       background-image: url("../img/icon/jq2.png"); }
     #herramientas .ch-info h3 {
@@ -571,7 +571,7 @@
       padding: 5px; }
 
   .modal-content {
-    height: 1000px;
+    height: 320vh;
     padding: 3%;
     background-color: #f0f0f0 !important; }
     .modal-content h4 {
