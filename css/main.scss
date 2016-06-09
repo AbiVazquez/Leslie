@@ -236,7 +236,7 @@
 		background-image: url("../img/infinito.gif");
 		background-size: 150% 100%;
 		background-position: center;
-		height: 590px;
+		height: 500px;
 	.nombre{
 			margin-top: 10%;
 			color: $colorw;
@@ -252,47 +252,47 @@
 		}
 	}
 	#sobreMi{
-	background-color: #048390;
-	height: 570px;
-	.txt{
-		margin-top: 3%;
-		img{
-			margin-top: $top-5;
-			width: 100%; 
-		}
-		h2{
-			color: $colorw;
-			font-weight: 300;
-			font-size: 50px;
-			text-align: center;
-		}
-		p{
-			color: $colorw;
-			margin-top: $top;
-			font-weight: 400;
-			font-size: 20px;
-			text-align: center;
+		background-color: #048390;
+		height: 570px;
+		.txt{
+			margin-top: 3%;
+			img{
+				margin-top: $top-5;
+				width: 100%; 
+			}
+			h2{
+				color: $colorw;
+				font-weight: 300;
+				font-size: 50px;
+				text-align: center;
+			}
+			p{
+				color: $colorw;
+				margin-top: $top;
+				font-weight: 400;
+				font-size: 20px;
+				text-align: center;
+			}
 		}
 	}
-}
-#frase{
-	background-image: url("../img/luz.jpg");
-	height: 220px;
-	background-attachment: fixed;
-	background-size: cover;
-	background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.6);
-    p{
-	    color: #dadada;
+	#frase{
+		background-image: url("../img/luz.jpg");
+		height: 220px;
+		background-attachment: fixed;
+		background-size: cover;
+		background-blend-mode: color;
+	    background-color: rgba(0, 0, 0, 0.6);
+	    p{
+		    color: #dadada;
 			margin-top: 4%;
 			font-weight: 400;
 			font-size: 20px;
 			text-align: center;
-    }
-    .txt2{
-    	text-align: right;
-    }
-}
+	    }
+	    .txt2{
+	    	text-align: right;
+	    }
+	}
 	#herramientas{
 		background-color: $colorw;
 		height: 1360px;
@@ -306,6 +306,44 @@
 		@include circulos;
 
 	}
+	#proyectos{
+		background-color: #AABFB9;
+		.bg-txt{
+			background-color: #AABFB9;
+			height: $img;
+		}
+		h2{
+			color: $colorw;
+			font-weight: 300;
+			font-size: 50px;
+			text-align: center;
+			margin-top: 30%;
+		}
+		h3{
+			color: $colorw;
+			font-weight: 400;
+			font-size: 40px;
+			text-align: center;
+		}
+		a{
+			position: absolute;
+			bottom: 10%;
+			left: 40%;
+			img{
+				width: 50%;
+			}
+		}
+		.mas{
+			position: absolute;
+			bottom: 10%;
+			left: 45%;
+			img{
+				width: 60%;
+			}
+		}
+
+		@include proyectos;
+	}
 	#contacto{
 		background-color: #329c98;
 		height: 375px;
@@ -316,21 +354,22 @@
 			text-align: center;
 			}
 		img{
-			width: 40%;
+			width: 50%;
 			margin-top: 10%;
 			margin-left: 30%;
 		}
 		.tel{
 			color: white;
-			font-size: 12px;
+			font-size: 15px;
 			font-weight: 600;
-			text-align: center;
+			margin-right: 20px;
 			border: 2px  dashed white;
 			margin-top: 7%;
 			padding: 5px;
 
 		}
 		.modal-content{
+			height: 200px;
 			padding: 3%;
 			background-color: #f0f0f0 !important;
 			h4{
@@ -349,7 +388,7 @@
 			.btn{
 				background-color: #048390;
 				color: white;
-				width: 100%;
+				width: 120%;
 				margin-top: 5%;
 				margin-left: 30%;
 				&:hover{
@@ -357,7 +396,7 @@
 					color: white;
 				};
 			}
-}
+		}
 }
 }
 
